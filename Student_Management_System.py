@@ -87,7 +87,7 @@ while True:
   choice=input("Enter your choice (1-7): ")
   if choice=='1':
     n=int(input("Enter the no. of students you want to enter: "))
-    for i in range(n+1):
+    for i in range(n):
 
       sms.add_student()
   elif choice=='2':
